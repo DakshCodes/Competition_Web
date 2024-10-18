@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100%;
+  width: 100%;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: Syne;
+  src: url(./assets/Syne-VariableFont_wght.ttf);
+}
+
+
+.bg-radial {
+  background: #0d132b;
+  background: radial-gradient(circle, #0d132b 0, #05060f 100%);
+}
+
+
+.font3 {
+  font-family: Syne;
+}
+
+.font1 {
+  font-family: "Queen Neko";
+}
+
+.font2 {
+  font-family: "Bigs Robotic";
+}
+
+
+.purp-btn {
+  font-family: Syne;
+  width: 140px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  background-color: rgb(161, 255, 20);
+  border-radius: 30px;
+  color: rgb(19, 19, 19);
+  font-weight: 600;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  transition-duration: .2s;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
+  padding-left: 13px;
+  font-size: 17px;
+  transition-duration: .5s;
+}
+
+.svgIcon {
+  height: 25px;
+  transition-duration: 1.5s;
+}
+
+.bell path {
+  fill: rgb(19, 19, 19);
+}
+
+.purp-btn:hover {
+  background-color: rgb(192, 255, 20);
+  transition-duration: .5s;
+}
+
+.purp-btn:active {
+  transform: scale(0.97);
+  transition-duration: .2s;
+}
+
+.purp-btn:hover .svgIcon {
+  transform: rotate(250deg);
+  transition-duration: 1.5s;
+}
+
+
+.footer {
+  background-image: url(https://xield.io/_next/static/media/footer-bg.e72b18e4.svg), url(https://xield.io/_next/static/media/bg-noise.5db3ded2.png);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background-position: top;
+}
