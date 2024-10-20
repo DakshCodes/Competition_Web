@@ -27,7 +27,7 @@ export function FeaturesSectionDemo() {
       title: "Line Follower Robot",
       description:
         "Build a robot that can follow a line and navigate through the track. This challenge requires teams to achieve precision and speed using provided kits.",
-      skeleton: <SkeletonThree />,
+      skeleton: <SkeletonThree img="https://i.pinimg.com/564x/d3/9a/6c/d39a6cb7ad65ef7f2aa4708dd9bf1abf.jpg" />,
       className:
         "col-span-1 lg:col-span-3 lg:border-r  dark:border-neutral-800",
     },
@@ -35,7 +35,7 @@ export function FeaturesSectionDemo() {
       title: "Robo Soccer",
       description:
         "Build your own soccer-playing robot! Compete against others to build the fastest and most efficient robot to dominate the arena.",
-      skeleton: <SkeletonThree />,
+      skeleton: <SkeletonThree img="https://i.pinimg.com/564x/ae/16/c0/ae16c0b924f28503240491cd9246ded9.jpg" />,
       className:
         "col-span-1 lg:col-span-3 lg:border-r  dark:border-neutral-800",
     },
